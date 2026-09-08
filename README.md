@@ -19,9 +19,6 @@ Backend engineer building payment infrastructure and agentic AI systems at **Vis
 
 <br />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=nexus-hash&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFB454&icon_color=FFB454&text_color=B7BCC3" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexus-hash&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFB454&text_color=B7BCC3" />
-
 <img src="https://streak-stats.demolab.com?user=nexus-hash&theme=dark&hide_border=true&background=0D1117&ring=FFB454&fire=FFB454&currStreakLabel=FFB454" />
 
 <br /><br />
