@@ -30,16 +30,10 @@ Backend engineer building payment infrastructure and agentic AI systems at **Vis
 
 </div>
 
-### 🌍 Open-source contributions
-
-<!-- Auto-updated daily by .github/workflows/oss-contributions.yml -->
-<!-- OSS-START -->
-**1** merged PR across **1** repo in **1** org
-
-| Repository | ⭐ | Merged PRs | Recent |
-|---|---|---|---|
-| <img src="https://avatars.githubusercontent.com/u/22800682?v=4&s=40" width="20" height="20" alt="jupyterlab" align="center" /> [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | 15,316 | [1](https://github.com/jupyterlab/jupyterlab/pulls?q=is%3Apr+is%3Amerged+author%3Anexus-hash) | [#19714](https://github.com/jupyterlab/jupyterlab/pull/19714) Defer tab to the completer only when its actually bound |
-<!-- OSS-END -->
+<a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Anexus-hash+-user%3Anexus-hash">
+  <img src="./assets/oss-contributions.svg" alt="Open-source contributions" width="100%" />
+</a>
+<!-- Regenerated daily by .github/workflows/oss-contributions.yml -->
 
 <div align="center">
 
