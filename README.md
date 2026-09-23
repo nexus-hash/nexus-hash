@@ -6,6 +6,11 @@
 
 Backend engineer building payment infrastructure and agentic AI systems at **Visa**. I work mostly in Java, Go, and Python — distributed services, event pipelines, and lately the tooling that lets AI agents operate safely inside production systems.
 
+<a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Anexus-hash+-user%3Anexus-hash">
+  <img src="./assets/oss-contributions.svg" alt="Open-source contributions" width="100%" />
+</a>
+<!-- Regenerated daily by .github/workflows/oss-contributions.yml -->
+
 - 🔭 Recently: migrated Visa's two largest payment gateways to multithreaded microservices — **10x** settlement acceleration
 - ⚡ Recently: built an AI triage/RCA pipeline processing **1M+ logs/sec**, cutting incident MTTR
 - 🤖 Recently: shipped a Claude Code agent wired into GitHub workflows for docs generation across **100+ repos**
@@ -27,15 +32,6 @@ Backend engineer building payment infrastructure and agentic AI systems at **Vis
 
 <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nexus-hash&theme=github_dark" />
 <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nexus-hash&theme=github_dark" />
-
-</div>
-
-<a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Anexus-hash+-user%3Anexus-hash">
-  <img src="./assets/oss-contributions.svg" alt="Open-source contributions" width="100%" />
-</a>
-<!-- Regenerated daily by .github/workflows/oss-contributions.yml -->
-
-<div align="center">
 
 <br />
 
