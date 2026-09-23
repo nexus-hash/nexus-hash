@@ -23,6 +23,24 @@ Backend engineer building payment infrastructure and agentic AI systems at **Vis
 
 <br /><br />
 
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nexus-hash&theme=github_dark" />
+
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nexus-hash&theme=github_dark" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nexus-hash&theme=github_dark" />
+
+</div>
+
+### 🌍 Open-source contributions
+
+<!-- Auto-updated daily by .github/workflows/oss-contributions.yml -->
+<!-- OSS-START -->
+_First merged PRs incoming — check back soon._ 🚧
+<!-- OSS-END -->
+
+<div align="center">
+
+<br />
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-nexus--hash.github.io-FFB454?style=for-the-badge&logo=vercel&logoColor=black)](https://nexus-hash.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nexus--hash-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nexus-hash)
 [![Email](https://img.shields.io/badge/Email-srtsoumya21%40gmail.com-8B929C?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srtsoumya21@gmail.com)
