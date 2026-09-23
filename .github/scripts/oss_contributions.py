@@ -16,6 +16,7 @@ README = "README.md"
 START, END = "<!-- OSS-START -->", "<!-- OSS-END -->"
 MAX_REPOS = 8
 MAX_PRS_PER_REPO = 3
+MIN_STARS = 500
 
 
 def gh(path):
@@ -42,6 +43,10 @@ def merged_prs():
         page += 1
 
 
+def plural(n, word):
+    return f"**{n}** {word}{'' if n == 1 else 's'}"
+
+
 def render(prs):
     if not prs:
         return "_First merged PRs incoming — check back soon._ 🚧"
@@ -54,14 +59,18 @@ def render(prs):
     repos = []
     for name, items in by_repo.items():
         meta = gh(f"/repos/{name}")
-        repos.append((meta["stargazers_count"], name, meta, items))
+        if meta["stargazers_count"] >= MIN_STARS:
+            repos.append((meta["stargazers_count"], name, meta, items))
+    if not repos:
+        return render([])
     # Rank by number of merged PRs, then by repo popularity.
     repos.sort(key=lambda r: (len(r[3]), r[0]), reverse=True)
 
     orgs = sorted({name.split("/")[0] for _, name, _, _ in repos})
+    total = sum(len(r[3]) for r in repos)
     lines = [
-        f"**{len(prs)}** merged PRs across **{len(repos)}** repos "
-        f"in **{len(orgs)}** orgs",
+        f"{plural(total, 'merged PR')} across {plural(len(repos), 'repo')} "
+        f"in {plural(len(orgs), 'org')}",
         "",
         "| Repository | ⭐ | Merged PRs | Recent |",
         "|---|---|---|---|",
@@ -74,8 +83,12 @@ def render(prs):
         all_prs = (
             f"https://github.com/{name}/pulls?q=is%3Apr+is%3Amerged+author%3A{USERNAME}"
         )
+        logo = (
+            f'<img src="{meta["owner"]["avatar_url"]}&s=40" width="20" height="20" '
+            f'alt="{name.split("/")[0]}" align="center" />'
+        )
         lines.append(
-            f"| [{name}]({meta['html_url']}) | {stars:,} | [{len(items)}]({all_prs}) | {recent} |"
+            f"| {logo} [{name}]({meta['html_url']}) | {stars:,} | [{len(items)}]({all_prs}) | {recent} |"
         )
     return "\n".join(lines)
 
