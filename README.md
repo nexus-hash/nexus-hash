@@ -34,7 +34,15 @@ Backend engineer building payment infrastructure and agentic AI systems at **Vis
 
 <!-- Auto-updated daily by .github/workflows/oss-contributions.yml -->
 <!-- OSS-START -->
-_First merged PRs incoming — check back soon._ 🚧
+**17** merged PRs across **5** repos in **4** orgs
+
+| Repository | ⭐ | Merged PRs | Recent |
+|---|---|---|---|
+| [souris-dev/ippts-simul-backend](https://github.com/souris-dev/ippts-simul-backend) | 1 | [10](https://github.com/souris-dev/ippts-simul-backend/pulls?q=is%3Apr+is%3Amerged+author%3Anexus-hash) | [#12](https://github.com/souris-dev/ippts-simul-backend/pull/12) Added env variables for slave urls<br>[#11](https://github.com/souris-dev/ippts-simul-backend/pull/11) feature to record task progress<br>[#7](https://github.com/souris-dev/ippts-simul-backend/pull/7) Added gRPC streaming and assignment  |
+| [souris-dev/Init-OS](https://github.com/souris-dev/Init-OS) | 0 | [3](https://github.com/souris-dev/Init-OS/pulls?q=is%3Apr+is%3Amerged+author%3Anexus-hash) | [#4](https://github.com/souris-dev/Init-OS/pull/4) Added customisable colouring<br>[#3](https://github.com/souris-dev/Init-OS/pull/3) Added another kernel<br>[#2](https://github.com/souris-dev/Init-OS/pull/2) Sample Bootloader |
+| [Malika01/ippts-simul-frontend](https://github.com/Malika01/ippts-simul-frontend) | 2 | [2](https://github.com/Malika01/ippts-simul-frontend/pulls?q=is%3Apr+is%3Amerged+author%3Anexus-hash) | [#6](https://github.com/Malika01/ippts-simul-frontend/pull/6) Added counter Reducer<br>[#7](https://github.com/Malika01/ippts-simul-frontend/pull/7) Added README |
+| [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | 15,316 | [1](https://github.com/jupyterlab/jupyterlab/pulls?q=is%3Apr+is%3Amerged+author%3Anexus-hash) | [#19714](https://github.com/jupyterlab/jupyterlab/pull/19714) Defer tab to the completer only when its actually bound |
+| [stalkiecat/stkc-ingester](https://github.com/stalkiecat/stkc-ingester) | 0 | [1](https://github.com/stalkiecat/stkc-ingester/pulls?q=is%3Apr+is%3Amerged+author%3Anexus-hash) | [#1](https://github.com/stalkiecat/stkc-ingester/pull/1) Fixing CI config and adding Kafka consumer |
 <!-- OSS-END -->
 
 <div align="center">
